@@ -1,0 +1,74 @@
+/* Conteneur principal du slider */
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  height: 718; 
+  width: 806;/* Hauteur du slider */
+  border-radius: 10px; /* Bordures arrondies */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre */
+  background-color: #f5f5f5; /* Couleur de fond si aucune image */
+}
+
+/* Conteneur de l'image */
+.slider {
+  width: 806;
+  height: 718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Image du slider */
+.slideImage {
+  width: 806;
+  height: 718;
+  object-fit: cover; /* Ajuste l'image sans la déformer */
+  border-radius: 10px; /* Coins arrondis */
+  opacity: 1; /* Assurez-vous que l'image est visible */
+  transition: opacity 0.5s ease-in-out; /* Transition fluide */
+}
+
+/* Boutons de navigation */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: #8FBC8F; /* Couleur principale */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  background: #2F4F4F;
+}
+
+/* Style pour le titre */
+h1 {
+  color: #2F4F4F;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.footer {
+    font-family: 'Raleway', cursive;
+    background-color: #2F4F4F;
+    color: #FAF9F6;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contactInfo {
+    font-family: 'Raleway', cursive;
+    font-size: 19px;
+  }
+  .contactInfo .p{
+    margin-right: 100px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #FAF9F6;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #8FBC8F;
+    transform: scale(1.2);
+  }
+  .copyright {
+    margin-top: 20px;
+    font-size: 0.875rem;
+    color: #FAF9F6;
+  }

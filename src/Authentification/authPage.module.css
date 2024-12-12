@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.authPage {
+    font-family: 'Raleway', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FAF9F6;
+    background:#2F4F4F ;
+  }
+  
+  .logoContainer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .form {
+    background: #FAF9F6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-family: 'Raleway', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2F4F4F;
+  }
+  
+  label {
+    font-family: 'Raleway', cursive;
+    font-size: 14px;
+    color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    font-family: 'Raleway', cursive;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #8FBC8F;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2F4F4F;
+  }
+  
+  
+  .switchForm {
+    font-size: 12px;
+    text-align: center;
+    color: #2F4F4F;
+    
+  }
+  .forgotPassword{
+    font-size: 12px;
+    text-align: center;
+    color: #8FBC8F;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .link {
+    color: #8FBC8F;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    color: #2F4F4F;
+  }
+  

@@ -1,0 +1,116 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.filterForm {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 170px;
+  margin-top: 60px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filterInput, .filterSelect, .filterButton {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #8FBC8F;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 250px;
+}
+
+.filterButton {
+  background-color: #2F4F4F;
+  color: #FAF9F6;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 100px;
+  margin-top: 68px;
+}
+
+.eventList {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.eventCard {
+  width: 300px; /* Fixe la largeur */
+  height: 400px; /* Fixe la hauteur */
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FAF9F6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Uniformise l'espacement vertical */
+  margin-bottom: 45px;
+}
+
+.eventImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.eventTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.eventLocation, .eventDate, .eventType {
+  font-size: 14px;
+  color: #2F4F4F;
+}
+
+.eventCard p {
+  margin: 5px 0;
+}
+
+.noEvents {
+  color: red;
+  font-size: 35px;
+  text-align: center;
+}
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.actionButton {
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #2F4F4F;
+  color: #FAF9F6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.actionButton:hover {
+  background-color: #8FBC8F;
+}

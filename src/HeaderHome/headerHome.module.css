@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.logo {
+  height: 70px; /* Taille commune pour le logo */
+  width: auto;
+  object-fit: cover;/* Maintient les proportions */
+}
+
+.logout {
+  height: 70px; /* Même taille que le logo */
+  width: auto; /* Maintient les proportions */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #2F4F4F;
+  color: #FAF9F6;
+}
+
+.navbar {
+  flex-grow: 1; /* Prend tout l'espace disponible */
+  display: flex;
+
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin:15px; /* Supprime les marges supplémentaires */
+}
+
+.navLink {
+  font-family: 'Raleway', cursive;
+  color: #FAF9F6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #8FBC8F;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoutContainer {
+  margin-left: auto; /* Pousse le bouton logout vers la droite */
+}
+.navbar h1 {
+  color: white; /* Définit la couleur blanche du texte */
+  font-size: 35px; /* Ajustez la taille selon vos préférences */
+  margin-left: 500px;
+  align-items: center; /* Supprime les marges par défaut */
+}

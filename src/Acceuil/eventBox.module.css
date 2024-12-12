@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.eventContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour 6 événements */
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Roboto', cursive;
+  }
+  
+  .eventBox {
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .eventBox:hover {
+    transform: scale(1.05);
+  }
+  
+  .eventImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .eventDetails {
+    padding: 15px;
+  }
+  
+  .eventTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .eventDescription {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .eventLocation,
+  .eventOrganizer,
+  .eventDate,
+  .eventStatus,
+  .eventRating {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .eventRating {
+    font-weight: bold;
+    color: #333;
+  }
+  .star {
+    color: gray; /* Couleur des étoiles non sélectionnées */
+    font-size: 18px;
+  }
+  
+  .star.filled {
+    color: gold; /* Couleur des étoiles remplies */
+  }
+  

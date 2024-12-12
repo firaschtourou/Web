@@ -1,0 +1,80 @@
+.organizer-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  .event-form input,
+  .event-form select,
+  .event-form textarea,
+  .event-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #2f4f4f;
+    border-radius: 5px;
+  }
+  
+  .event-form textarea {
+    resize: none;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .event-table th,
+  .event-table td {
+    border: 1px solid #2f4f4f;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .poster-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #2f4f4f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  button:last-child {
+    margin-right: 0; /* Remove extra margin for the last button */
+  }
+  
+  button:hover {
+    background-color: #556b2f;
+  }
+  .poster-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
